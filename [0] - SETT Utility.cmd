@@ -925,7 +925,7 @@ goto :menu
 chcp 437 > nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Select disable updates in wub, press ok to open it', 'SETT Tweaking Utility', 'Ok', [System.Windows.Forms.MessageBoxIcon]::Information);}"
 chcp 65001 > nul
-start C:\settUtility\WindowsUpdateBlocker\Wub.exe
+start C:\settUtility\100_WindowsUpdateBlocker\Wub.exe
 echo.
 
 echo.
@@ -2402,7 +2402,7 @@ goto :debloat
 chcp 437 > nul
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('go to the LOGON section, disable all services except: antivirus, cmd.exe, and the n/a services', 'SETT Tweaking Utility', 'Ok', [System.Windows.Forms.MessageBoxIcon]::Information);}"
 chcp 65001 > nul
-start C:\settUtility\Autoruns\autoruns.exe
+start C:\settUtility\90_Autoruns\autoruns.exe
 echo.
 echo.
 echo.
@@ -6588,7 +6588,7 @@ goto :power
 
 echo Applying SETT Power Plan
 
-powercfg -import "C:\settUtility\PowerPlan\SETT_Power_Plan.pow"
+powercfg -import "C:\settUtility\98_PowerPlan\SETT_Power_Plan_V5.pow"
 
 powercfg.cpl
 
@@ -7959,3 +7959,50 @@ echo.                                              %b%╚═══════�
 pause > nul
 cls
 goto :menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
