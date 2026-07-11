@@ -1,6 +1,6 @@
 # SETT Utility
 
-Download (Powershell as Administrator)
+### Download (Powershell as Administrator)
 ```bash
 iwr da.gd/setttt -OutFile ~\Downloads\s.zip
 ```
