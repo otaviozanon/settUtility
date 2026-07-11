@@ -1,5 +1,10 @@
 # SETT Utility
 
+Download (Powershell as Administrator)
+```bash
+iwr da.gd/setttt -OutFile ~\Downloads\s.zip
+```
+
 A comprehensive **Windows optimization and gaming performance toolkit** — configure a fresh or existing Windows install for maximum gaming performance.
 
 ## Overview
